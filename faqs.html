@@ -1,0 +1,269 @@
+<!DOCTYPE html>
+<html class="dark" lang="en">
+<head>
+<meta charset="utf-8"/>
+<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+<title>FAQs | Diamond Finish Detailing</title>
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@600;700;800&family=Manrope:wght@400;500;600;700&display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&display=swap" rel="stylesheet"/>
+<link rel="stylesheet" href="assets/css/shared.css"/>
+<script id="tailwind-config">
+tailwind.config={darkMode:"class",theme:{extend:{colors:{"surface-dim":"#0e0e0e","surface-variant":"#262626","outline-variant":"#484848","surface-container-lowest":"#000000","surface-container":"#191919","surface-container-high":"#1f1f1f","surface-container-low":"#131313","surface-container-highest":"#262626","surface-bright":"#2c2c2c","surface":"#0e0e0e","background":"#0e0e0e","on-background":"#ffffff","on-surface":"#ffffff","on-surface-variant":"#ababab","outline":"#757575","primary":"#5dc9ff","primary-dim":"#00afea","primary-fixed":"#00bdfd","on-primary":"#003f57","secondary":"#e2e2e2","secondary-container":"#454747","on-secondary":"#505252","error":"#ff716c","tertiary":"#969aff","inverse-surface":"#f9f9f9","inverse-on-surface":"#555555","inverse-primary":"#00668a","surface-tint":"#5dc9ff"},borderRadius:{"DEFAULT":"0.125rem","lg":"0.25rem","xl":"0.5rem","full":"0.75rem"},fontFamily:{"headline":["Montserrat","sans-serif"],"body":["Montserrat","sans-serif"],"label":["Montserrat","sans-serif"]}}}}
+</script>
+</head>
+<body class="bg-black text-white">
+
+<!-- NAV -->
+<nav class="fixed top-0 w-full z-50 glass-nav shadow-[0px_20px_40px_rgba(0,191,255,0.08)]">
+  <div class="flex justify-between items-center px-6 md:px-8 py-4">
+    <a href="index.html" class="text-xl md:text-2xl font-semibold tracking-tighter text-white">Diamond Finish <span class="text-primary">Detailing</span></a>
+    <div class="hidden md:flex items-center space-x-8">
+      <a href="index.html" class="text-white hover:text-primary transition-colors font-semibold tracking-tight text-sm">Home</a>
+      <div class="relative nav-dropdown-parent">
+        <button class="flex items-center gap-1 text-white hover:text-primary transition-colors font-semibold tracking-tight text-sm">Services <span class="material-symbols-outlined text-sm leading-none" style="font-size:16px">expand_more</span></button>
+        <div class="nav-dropdown absolute top-8 left-0 bg-black border border-white/10 rounded-lg py-2 min-w-[200px] z-50">
+          <a href="auto-detailing.html" class="block px-5 py-2 text-sm font-semibold text-white/70 hover:text-primary transition-colors">Auto Detailing</a>
+          <a href="marine-detailing.html" class="block px-5 py-2 text-sm font-semibold text-white/70 hover:text-primary transition-colors">Marine Detailing</a>
+          <a href="ceramic-coating.html" class="block px-5 py-2 text-sm font-semibold text-white/70 hover:text-primary transition-colors">Ceramic Coating</a>
+          <a href="fleet-detailing.html" class="block px-5 py-2 text-sm font-semibold text-white/70 hover:text-primary transition-colors">Fleet Detailing</a>
+        </div>
+      </div>
+      <a href="clean-car-club.html" class="text-white hover:text-primary transition-colors font-semibold tracking-tight text-sm">Clean Car Club</a>
+      <a href="faqs.html" class="text-primary border-b-2 border-primary pb-1 font-semibold tracking-tight text-sm">FAQs</a>
+      <a href="contact.html" class="text-white hover:text-primary transition-colors font-semibold tracking-tight text-sm">Contact</a>
+    </div>
+    <div class="flex items-center gap-3">
+      <a href="https://app.urable.com/virtual-shop/eKBgJfajP9ydNkViFCtR" target="_blank" class="bg-transparent border-2 border-primary text-white px-5 py-2 rounded-lg font-semibold text-sm hover:bg-primary hover:text-black transition-all duration-300">Book Online</a>
+      <button id="mobile-menu-btn" class="md:hidden text-white"><span class="material-symbols-outlined">menu</span></button>
+    </div>
+  </div>
+  <div id="mobile-menu" class="hidden md:hidden bg-black border-t border-white/10 px-6 py-5 space-y-4">
+    <a href="index.html" class="block text-white/70 hover:text-primary font-semibold text-sm">Home</a>
+    <a href="auto-detailing.html" class="block text-white/70 hover:text-primary font-semibold text-sm">Auto Detailing</a>
+    <a href="marine-detailing.html" class="block text-white/70 hover:text-primary font-semibold text-sm">Marine Detailing</a>
+    <a href="ceramic-coating.html" class="block text-white/70 hover:text-primary font-semibold text-sm">Ceramic Coating</a>
+    <a href="fleet-detailing.html" class="block text-white/70 hover:text-primary font-semibold text-sm">Fleet Detailing</a>
+    <a href="clean-car-club.html" class="block text-white/70 hover:text-primary font-semibold text-sm">Clean Car Club</a>
+    <a href="faqs.html" class="block text-primary font-semibold text-sm">FAQs</a>
+    <a href="contact.html" class="block text-white/70 hover:text-primary font-semibold text-sm">Contact</a>
+  </div>
+</nav>
+
+<main class="pt-32 pb-24">
+
+  <!-- HERO -->
+  <section class="max-w-4xl mx-auto px-6 mb-20 text-center fade-in">
+    <span class="text-primary uppercase tracking-[0.2em] text-[0.6875rem] font-bold block mb-4">Got Questions?</span>
+    <h1 class="text-5xl md:text-6xl font-extrabold tracking-tighter leading-none mb-6 uppercase">Frequently Asked<br/><span class="text-primary">Questions</span></h1>
+    <p class="text-on-surface-variant text-lg max-w-2xl mx-auto font-medium">Everything you need to know about our precision detailing services and obsidian-grade protection.</p>
+  </section>
+
+  <!-- FAQ ACCORDION -->
+  <section class="max-w-3xl mx-auto px-6 space-y-3 mb-32 fade-in">
+
+    <div class="faq-item bg-surface-container-low border-l-4 border-primary rounded-r-lg overflow-hidden">
+      <div class="faq-header flex justify-between items-center p-6 cursor-pointer hover:bg-surface-container transition-colors">
+        <span class="text-base font-bold text-white uppercase tracking-wide">How long does a full detail take?</span>
+        <span class="material-symbols-outlined text-primary faq-icon shrink-0 ml-4">add</span>
+      </div>
+      <div class="faq-body px-6 pb-6">
+        <p class="text-on-surface-variant text-sm leading-relaxed">Service times vary by package. An Interior Detail typically takes 2–3 hours, a Full Detail 3–5 hours, and our Diamond package (which includes paint correction) can take 6–8+ hours. Ceramic coating applications require an additional full day. We'll always give you a precise time estimate when you book.</p>
+      </div>
+    </div>
+
+    <div class="faq-item bg-surface-container-low border-l-4 border-primary rounded-r-lg overflow-hidden">
+      <div class="faq-header flex justify-between items-center p-6 cursor-pointer hover:bg-surface-container transition-colors">
+        <span class="text-base font-bold text-white uppercase tracking-wide">What is ceramic coating and how long does it last?</span>
+        <span class="material-symbols-outlined text-primary faq-icon shrink-0 ml-4">add</span>
+      </div>
+      <div class="faq-body px-6 pb-6">
+        <p class="text-on-surface-variant text-sm leading-relaxed">Ceramic coating is a liquid polymer that chemically bonds to your vehicle's paint, creating a permanent protective layer with a 9H hardness rating. Unlike wax, it doesn't wash away. Depending on the product tier, our coatings last 2–3 years (Crystal+), 6 years (Pro+), or a lifetime (Max G+). All our coatings are SystemX certified.</p>
+      </div>
+    </div>
+
+    <div class="faq-item bg-surface-container-low border-l-4 border-primary rounded-r-lg overflow-hidden">
+      <div class="faq-header flex justify-between items-center p-6 cursor-pointer hover:bg-surface-container transition-colors">
+        <span class="text-base font-bold text-white uppercase tracking-wide">Do you come to my location?</span>
+        <span class="material-symbols-outlined text-primary faq-icon shrink-0 ml-4">add</span>
+      </div>
+      <div class="faq-body px-6 pb-6">
+        <p class="text-on-surface-variant text-sm leading-relaxed">Yes — we are 100% mobile. We bring all equipment, water, and power to your driveway, garage, or workplace. We service the entire South Shore including Scituate, Marshfield, Duxbury, Plymouth, Hingham, and surrounding towns. No need to drop your car off anywhere.</p>
+      </div>
+    </div>
+
+    <div class="faq-item bg-surface-container-low border-l-4 border-primary rounded-r-lg overflow-hidden">
+      <div class="faq-header flex justify-between items-center p-6 cursor-pointer hover:bg-surface-container transition-colors">
+        <span class="text-base font-bold text-white uppercase tracking-wide">What products and chemicals do you use?</span>
+        <span class="material-symbols-outlined text-primary faq-icon shrink-0 ml-4">add</span>
+      </div>
+      <div class="faq-body px-6 pb-6">
+        <p class="text-on-surface-variant text-sm leading-relaxed">We use only professional-grade, pH-balanced products from industry-leading brands. For ceramic coatings we are authorized SystemX applicators. All products are safe for your vehicle's surfaces, paint, leather, and trim. We never use harsh detergents that could strip sealants or damage clear coat.</p>
+      </div>
+    </div>
+
+    <div class="faq-item bg-surface-container-low border-l-4 border-primary rounded-r-lg overflow-hidden">
+      <div class="faq-header flex justify-between items-center p-6 cursor-pointer hover:bg-surface-container transition-colors">
+        <span class="text-base font-bold text-white uppercase tracking-wide">Is paint correction necessary before ceramic coating?</span>
+        <span class="material-symbols-outlined text-primary faq-icon shrink-0 ml-4">add</span>
+      </div>
+      <div class="faq-body px-6 pb-6">
+        <p class="text-on-surface-variant text-sm leading-relaxed">Paint correction is strongly recommended before ceramic coating. Ceramic locks in the current condition of your paint — if there are swirl marks, scratches, or oxidation, the coating will preserve those defects permanently. Our Diamond package includes paint correction specifically for this reason. We'll assess your paint during the consultation and advise accordingly.</p>
+      </div>
+    </div>
+
+    <div class="faq-item bg-surface-container-low border-l-4 border-primary rounded-r-lg overflow-hidden">
+      <div class="faq-header flex justify-between items-center p-6 cursor-pointer hover:bg-surface-container transition-colors">
+        <span class="text-base font-bold text-white uppercase tracking-wide">What areas do you service?</span>
+        <span class="material-symbols-outlined text-primary faq-icon shrink-0 ml-4">add</span>
+      </div>
+      <div class="faq-body px-6 pb-6">
+        <p class="text-on-surface-variant text-sm leading-relaxed">We primarily serve the South Shore of Massachusetts, including Scituate, Marshfield, Duxbury, Plymouth, Hingham, Cohasset, Norwell, and Pembroke. For commercial fleet work or larger ceramic coating projects we can travel further. Contact us to confirm coverage for your specific location.</p>
+      </div>
+    </div>
+
+    <div class="faq-item bg-surface-container-low border-l-4 border-primary rounded-r-lg overflow-hidden">
+      <div class="faq-header flex justify-between items-center p-6 cursor-pointer hover:bg-surface-container transition-colors">
+        <span class="text-base font-bold text-white uppercase tracking-wide">Do you detail boats and marine vessels?</span>
+        <span class="material-symbols-outlined text-primary faq-icon shrink-0 ml-4">add</span>
+      </div>
+      <div class="faq-body px-6 pb-6">
+        <p class="text-on-surface-variant text-sm leading-relaxed">Absolutely — marine detailing is one of our specialties. We offer dock-side service for everything from powerboats to sailboats. Packages include the Mariner's Detail, Captain's Detail (most popular), and full Ceramic Coating. We also offer on-dock maintenance programs billed per linear foot for seasonal care.</p>
+      </div>
+    </div>
+
+    <div class="faq-item bg-surface-container-low border-l-4 border-primary rounded-r-lg overflow-hidden">
+      <div class="faq-header flex justify-between items-center p-6 cursor-pointer hover:bg-surface-container transition-colors">
+        <span class="text-base font-bold text-white uppercase tracking-wide">What is your warranty and aftercare policy?</span>
+        <span class="material-symbols-outlined text-primary faq-icon shrink-0 ml-4">add</span>
+      </div>
+      <div class="faq-body px-6 pb-6">
+        <p class="text-on-surface-variant text-sm leading-relaxed">All ceramic coating applications come with a manufacturer-backed warranty through SystemX. Our Pro+ coating carries a 6-year warranty and Max G+ is lifetime-warranted. We provide detailed aftercare instructions and recommend maintenance washes every 4–6 weeks to preserve the coating. Clean Car Club members receive quarterly maintenance top-ups to keep the coating performing at its peak.</p>
+      </div>
+    </div>
+
+  </section>
+
+  <!-- WHAT WE OFFER -->
+  <section class="bg-surface-container-low py-24 fade-in">
+    <div class="max-w-7xl mx-auto px-8 grid grid-cols-1 md:grid-cols-2 gap-16 items-center">
+      <div class="relative">
+        <div class="absolute -top-4 -left-4 w-24 h-24 border-t-4 border-l-4 border-primary pointer-events-none"></div>
+        <img class="w-full h-[500px] object-cover grayscale hover:grayscale-0 transition-all duration-700 rounded" src="https://lh3.googleusercontent.com/aida-public/AB6AXuD1wZQnOs8rdm7974t-sRP5xyNeIgeuF4V5L0TDi4KpCqL0I30TYdr14OoaGGhTJ-iGY6NWrKk1NFJxoxL35D2IlH8Jx_CuFCph6BxWHE6HPM1N2tVRSWGMj_x5PeVrVgcE_ayDHWNv1aAJT7RlrpGagqL1Ycqcx4M1eqoivfa38RO0w3liYGZUaLRpkqSGjxm7ZjkrUoji7a81rkaFdEjv4JR_3Jla7TpUMuBFdNZH7Bxy2V6ApfUCRZQkI1_gl48WM_--OSyFNQc" alt="Premium car detailing close-up"/>
+        <div class="absolute -bottom-4 -right-4 w-24 h-24 border-b-4 border-r-4 border-primary pointer-events-none"></div>
+      </div>
+      <div class="space-y-8">
+        <div>
+          <span class="text-primary font-bold tracking-[0.2em] text-sm uppercase block mb-2">Engineered for Perfection</span>
+          <h2 class="text-4xl font-extrabold text-white uppercase leading-tight">WHAT WE OFFER</h2>
+        </div>
+        <p class="text-on-surface-variant leading-relaxed text-lg">
+          Diamond Finish Detailing isn't just about washing cars — it's about automotive preservation. We provide technical excellence through advanced surface science, with a boutique approach ensuring every vehicle receives undivided attention.
+        </p>
+        <div class="grid grid-cols-1 sm:grid-cols-2 gap-6">
+          <div class="flex items-start gap-4">
+            <span class="material-symbols-outlined text-primary shrink-0">verified</span>
+            <div>
+              <h4 class="text-white font-bold uppercase text-sm mb-1">9H Protection</h4>
+              <p class="text-on-surface-variant text-xs uppercase tracking-wider">Nano-ceramic coating standards</p>
+            </div>
+          </div>
+          <div class="flex items-start gap-4">
+            <span class="material-symbols-outlined text-primary shrink-0">precision_manufacturing</span>
+            <div>
+              <h4 class="text-white font-bold uppercase text-sm mb-1">Paint Correction</h4>
+              <p class="text-on-surface-variant text-xs uppercase tracking-wider">Multi-stage abrasive leveling</p>
+            </div>
+          </div>
+          <div class="flex items-start gap-4">
+            <span class="material-symbols-outlined text-primary shrink-0">water_drop</span>
+            <div>
+              <h4 class="text-white font-bold uppercase text-sm mb-1">Interior Detailing</h4>
+              <p class="text-on-surface-variant text-xs uppercase tracking-wider">Steam-extraction &amp; protection</p>
+            </div>
+          </div>
+          <div class="flex items-start gap-4">
+            <span class="material-symbols-outlined text-primary shrink-0">anchor</span>
+            <div>
+              <h4 class="text-white font-bold uppercase text-sm mb-1">Marine Detailing</h4>
+              <p class="text-on-surface-variant text-xs uppercase tracking-wider">Dock-side vessel care</p>
+            </div>
+          </div>
+        </div>
+        <a href="auto-detailing.html" class="inline-block border-2 border-primary px-10 py-4 text-white font-bold uppercase tracking-widest text-sm hover:bg-primary hover:text-black transition-all">Explore Our Services</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- STATS BENTO -->
+  <section class="max-w-7xl mx-auto px-8 py-24 fade-in">
+    <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+      <div class="bg-surface-container p-10 flex flex-col justify-between h-64 border-t-4 border-primary rounded">
+        <span class="material-symbols-outlined text-primary text-4xl">schedule</span>
+        <div>
+          <h3 class="text-4xl font-extrabold text-white">4,800+</h3>
+          <p class="text-on-surface-variant uppercase text-xs font-bold tracking-widest mt-1">Hours of Polishing</p>
+        </div>
+      </div>
+      <div class="bg-surface-container p-10 flex flex-col justify-between h-64 border-t-4 border-primary rounded">
+        <span class="material-symbols-outlined text-primary text-4xl">workspace_premium</span>
+        <div>
+          <h3 class="text-4xl font-extrabold text-white">500+</h3>
+          <p class="text-on-surface-variant uppercase text-xs font-bold tracking-widest mt-1">Satisfied Customers</p>
+        </div>
+      </div>
+      <div class="bg-primary p-10 flex flex-col justify-between h-64 shadow-[0px_20px_40px_rgba(93,201,255,0.2)] rounded">
+        <span class="material-symbols-outlined text-black text-4xl">calendar_month</span>
+        <div>
+          <a href="contact.html" class="block">
+            <h3 class="text-3xl font-extrabold text-black uppercase hover:underline">Book Now</h3>
+            <p class="text-black/70 uppercase text-xs font-bold tracking-widest mt-1">Secure your slot today</p>
+          </a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+</main>
+
+<!-- FOOTER -->
+<footer class="bg-black border-t border-white/10">
+  <div class="grid grid-cols-1 md:grid-cols-4 gap-12 px-12 py-16">
+    <div class="space-y-6">
+      <div class="text-xl font-semibold text-white">Diamond Finish <span class="text-primary">Detailing</span></div>
+      <p class="text-white/50 text-xs leading-relaxed">Engineered for perfection, delivered to your driveway. The premier mobile detailing experience on the South Shore of Massachusetts.</p>
+    </div>
+    <div class="space-y-4">
+      <h4 class="text-primary font-bold uppercase tracking-[0.1em] text-[0.6875rem]">Services</h4>
+      <ul class="space-y-2">
+        <li><a href="auto-detailing.html" class="text-white/70 hover:text-primary transition-colors text-xs font-semibold uppercase tracking-[0.1em]">Auto Detailing</a></li>
+        <li><a href="marine-detailing.html" class="text-white/70 hover:text-primary transition-colors text-xs font-semibold uppercase tracking-[0.1em]">Marine Detailing</a></li>
+        <li><a href="ceramic-coating.html" class="text-white/70 hover:text-primary transition-colors text-xs font-semibold uppercase tracking-[0.1em]">Ceramic Coating</a></li>
+        <li><a href="fleet-detailing.html" class="text-white/70 hover:text-primary transition-colors text-xs font-semibold uppercase tracking-[0.1em]">Fleet Detailing</a></li>
+      </ul>
+    </div>
+    <div class="space-y-4">
+      <h4 class="text-primary font-bold uppercase tracking-[0.1em] text-[0.6875rem]">Hours</h4>
+      <ul class="space-y-2 text-white/70 text-xs font-semibold uppercase tracking-[0.1em]">
+        <li>Mon – Fri: 8am – 6pm</li><li>Sat: 9am – 4pm</li><li>Sun: Closed</li>
+      </ul>
+    </div>
+    <div class="space-y-4">
+      <h4 class="text-primary font-bold uppercase tracking-[0.1em] text-[0.6875rem]">Contact</h4>
+      <ul class="space-y-2">
+        <li class="text-white/70 text-xs font-semibold uppercase tracking-[0.1em]">Scituate / Marshfield, MA</li>
+        <li><a href="tel:7814243314" class="text-white/70 hover:text-primary text-xs font-semibold uppercase tracking-[0.1em]">(781) 424-3314</a></li>
+        <li><a href="mailto:DFDetailing02066@gmail.com" class="text-white/70 hover:text-primary text-xs font-semibold uppercase tracking-[0.1em]">DFDetailing02066@gmail.com</a></li>
+        <li><a href="https://instagram.com" target="_blank" class="text-white/70 hover:text-primary text-xs font-semibold uppercase tracking-[0.1em]">Instagram</a></li>
+        <li><a href="https://facebook.com" target="_blank" class="text-white/70 hover:text-primary text-xs font-semibold uppercase tracking-[0.1em]">Facebook</a></li>
+      </ul>
+    </div>
+  </div>
+  <div class="px-12 py-8 border-t border-white/5 text-center">
+    <p class="text-white/30 font-semibold uppercase tracking-[0.1em] text-[0.6875rem]">© 2025 Diamond Finish Detailing. Engineered for Perfection.</p>
+  </div>
+</footer>
+
+<script src="assets/js/main.js"></script>
+</body>
+</html>

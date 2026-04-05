@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html class="dark" lang="en">
+<head>
+<meta charset="utf-8"/><meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+<title>Auto Detailing | Diamond Finish Detailing</title>
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@600;700;800&display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&display=swap" rel="stylesheet"/>
+<link rel="stylesheet" href="assets/css/shared.css"/>
+<script id="tailwind-config">tailwind.config={darkMode:"class",theme:{extend:{colors:{"surface-container-lowest":"#000000","surface-container":"#191919","surface-container-high":"#1f1f1f","surface-container-low":"#131313","surface-container-highest":"#262626","surface":"#0e0e0e","background":"#0e0e0e","on-background":"#ffffff","on-surface":"#ffffff","on-surface-variant":"#ababab","outline":"#757575","primary":"#5dc9ff","surface-variant":"#262626","outline-variant":"#484848"},borderRadius:{"DEFAULT":"0.125rem","lg":"0.25rem","xl":"0.5rem","full":"0.75rem"},fontFamily:{"headline":["Montserrat","sans-serif"],"body":["Montserrat","sans-serif"]}}}}</script>
+</head>
+<body class="bg-black text-white font-semibold">
+<nav class="fixed top-0 w-full z-50 glass-nav shadow-[0px_20px_40px_rgba(0,191,255,0.08)]">
+  <div class="flex justify-between items-center px-6 md:px-8 py-4">
+    <a href="index.html" class="text-xl md:text-2xl font-semibold tracking-tighter text-white">Diamond Finish <span class="text-primary">Detailing</span></a>
+    <div class="hidden md:flex items-center space-x-8">
+      <a href="index.html" class="text-white hover:text-primary transition-colors font-semibold tracking-tight text-sm">Home</a>
+      <div class="relative nav-dropdown-parent">
+        <button class="flex items-center gap-1 text-primary border-b-2 border-primary pb-1 font-semibold tracking-tight text-sm">Services <span class="material-symbols-outlined" style="font-size:16px">expand_more</span></button>
+        <div class="nav-dropdown absolute top-8 left-0 bg-black border border-white/10 rounded-lg py-2 min-w-[200px] z-50">
+          <a href="auto-detailing.html" class="block px-5 py-2 text-sm font-semibold text-primary">Auto Detailing</a>
+          <a href="marine-detailing.html" class="block px-5 py-2 text-sm font-semibold text-white/70 hover:text-primary">Marine Detailing</a>
+          <a href="ceramic-coating.html" class="block px-5 py-2 text-sm font-semibold text-white/70 hover:text-primary">Ceramic Coating</a>
+          <a href="fleet-detailing.html" class="block px-5 py-2 text-sm font-semibold text-white/70 hover:text-primary">Fleet Detailing</a>
+        </div>
+      </div>
+      <a href="clean-car-club.html" class="text-white hover:text-primary transition-colors font-semibold tracking-tight text-sm">Clean Car Club</a>
+      <a href="faqs.html" class="text-white hover:text-primary transition-colors font-semibold tracking-tight text-sm">FAQs</a>
+      <a href="contact.html" class="text-white hover:text-primary transition-colors font-semibold tracking-tight text-sm">Contact</a>
+    </div>
+    <div class="flex items-center gap-3">
+      <a href="contact.html" class="border-2 border-primary text-white px-5 py-2 rounded-lg font-semibold text-sm hover:bg-primary hover:text-black transition-all">Book Online</a>
+      <button id="mobile-menu-btn" class="md:hidden text-white"><span class="material-symbols-outlined">menu</span></button>
+    </div>
+  </div>
+  <div id="mobile-menu" class="hidden md:hidden bg-black border-t border-white/10 px-6 py-5 space-y-4">
+    <a href="index.html" class="block text-white/70 font-semibold text-sm">Home</a>
+    <a href="auto-detailing.html" class="block text-primary font-semibold text-sm">Auto Detailing</a>
+    <a href="marine-detailing.html" class="block text-white/70 font-semibold text-sm">Marine Detailing</a>
+    <a href="ceramic-coating.html" class="block text-white/70 font-semibold text-sm">Ceramic Coating</a>
+    <a href="fleet-detailing.html" class="block text-white/70 font-semibold text-sm">Fleet Detailing</a>
+    <a href="clean-car-club.html" class="block text-white/70 font-semibold text-sm">Clean Car Club</a>
+    <a href="faqs.html" class="block text-white/70 font-semibold text-sm">FAQs</a>
+    <a href="contact.html" class="block text-white/70 font-semibold text-sm">Contact</a>
+  </div>
+</nav>
+
+<!-- HERO -->
+<section class="relative min-h-screen flex items-center pt-20 overflow-hidden">
+  <div class="absolute inset-0 z-0">
+    <img alt="White Range Rover in studio lighting" class="w-full h-full object-cover opacity-60" src="https://lh3.googleusercontent.com/aida-public/AB6AXuBf7BQP5ds26HQdhrVGFYSD1AlliSWL-Ox00mEsDHlG65Le2ECjqDNyBVQQa2SRHdmJT3PEtlZUL5DSJMoRvhuUnURjTdY4B3adIDN5gn0ogP3ROJfNt6ib-2wZxFbq2-NWhoO1FNVWl0CeUSZOJlndicycXotXnaP1vvP3V3dmV_m9H6ZnKlNZ0ILkNuUaHfcoRGnhq27JVYMTLr072Yt8KXQojTa9WrVoYarZv_rHEoujAKU3wocAxGdGfps61x4u_HHTpyj-hQw"/>
+    <div class="absolute inset-0 bg-gradient-to-r from-black via-black/40 to-transparent"></div>
+  </div>
+  <div class="relative z-10 grid grid-cols-1 md:grid-cols-2 gap-12 px-8 md:px-16 w-full">
+    <div class="flex flex-col justify-center">
+      <h1 class="text-5xl md:text-7xl font-extrabold tracking-tighter leading-tight uppercase mb-6">Best Mobile <br/><span class="text-primary">Auto Detailing</span><br/>in Massachusetts</h1>
+      <p class="text-on-surface-variant text-lg max-w-lg font-normal mb-8">Uncompromising precision for the most discerning enthusiasts. We bring the showroom finish directly to your doorstep.</p>
+    </div>
+  </div>
+</section>
+
+<!-- PACKAGES OVERVIEW -->
+<section class="bg-surface py-24 px-8 md:px-16 fade-in">
+  <div class="grid grid-cols-1 md:grid-cols-3 gap-16">
+    <div class="group cursor-pointer"><h2 class="text-3xl font-bold uppercase mb-4 group-hover:text-primary transition-colors">Interior</h2><div class="w-24 h-1 bg-primary mb-6"></div><p class="text-on-surface-variant text-sm mb-6 leading-relaxed">Surgical precision for your cabin. Deep cleaning and preservation for all surfaces.</p><a class="text-xs uppercase tracking-[0.2em] text-primary font-bold" href="#interior">View Package →</a></div>
+    <div class="group cursor-pointer"><h2 class="text-3xl font-bold uppercase mb-4 group-hover:text-primary transition-colors">Full</h2><div class="w-24 h-1 bg-primary mb-6"></div><p class="text-on-surface-variant text-sm mb-6 leading-relaxed">The ultimate reset. Exterior decontamination combined with a deep interior cleanse.</p><a class="text-xs uppercase tracking-[0.2em] text-primary font-bold" href="#full">View Package →</a></div>
+    <div class="group cursor-pointer"><h2 class="text-3xl font-bold uppercase mb-4 group-hover:text-primary transition-colors">Diamond</h2><div class="w-24 h-1 bg-primary mb-6"></div><p class="text-on-surface-variant text-sm mb-6 leading-relaxed">Concourse level excellence. Paint correction and ceramic protection for life-long shine.</p><a class="text-xs uppercase tracking-[0.2em] text-primary font-bold" href="#diamond">View Package →</a></div>
+  </div>
+</section>
+
+<!-- MARQUEE -->
+<section class="bg-surface-container-low py-10 border-y border-white/5 overflow-hidden">
+  <div class="animate-marquee">
+    <span class="text-primary text-xl font-bold uppercase tracking-[0.2em] mr-16">Keep your vehicle brand new. Explore our Clean Car Club. &nbsp;&nbsp;&nbsp;&nbsp;</span>
+    <span class="text-primary text-xl font-bold uppercase tracking-[0.2em] mr-16">Keep your vehicle brand new. Explore our Clean Car Club. &nbsp;&nbsp;&nbsp;&nbsp;</span>
+    <span class="text-primary text-xl font-bold uppercase tracking-[0.2em] mr-16">Keep your vehicle brand new. Explore our <a href="clean-car-club.html" class="underline">Clean Car Club</a>. &nbsp;&nbsp;&nbsp;&nbsp;</span>
+    <span class="text-primary text-xl font-bold uppercase tracking-[0.2em] mr-16">Keep your vehicle brand new. Explore our Clean Car Club. &nbsp;&nbsp;&nbsp;&nbsp;</span>
+  </div>
+</section>
+
+<!-- PACKAGE DETAILS -->
+<section class="space-y-0">
+  <div class="grid grid-cols-1 md:grid-cols-2 min-h-[600px]" id="interior">
+    <div class="relative"><img alt="Luxurious BMW red leather interior" class="w-full h-full object-cover" src="https://lh3.googleusercontent.com/aida-public/AB6AXuCwBU0vk-KZmYakwsTPbc5NsttgFbLYMnkdpqs-BM_jVxnjgemiNjWoN--Um3JbyReQLJCHoDZ52WbmFqD2-JHxhR8NZ0K8_dLf4pGdFl2YHCmmelRNz8kVKmTs-HT0fPoH5crylpbRl-EtbDLWuihX959maY0tpF-OYS57YPOYOvQV0-iHKn9ddq1jDMhivxMIjR_ZXe0JvLOWZjqsHRFGkm2nUqZbe_Jxh8DJNxAEj5G-MpYQ8hZlY_NZua6V4GMjwmgxBfzUF6g"/></div>
+    <div class="bg-surface-container flex flex-col justify-center p-12 md:p-24 border-t-8 border-primary md:border-t-0 md:border-l-8">
+      <span class="text-primary text-xs uppercase tracking-[0.3em] mb-4">Starting at $209</span>
+      <h3 class="text-4xl font-extrabold uppercase mb-8">Interior Detail</h3>
+      <ul class="space-y-4 mb-10 text-sm">
+        <li class="flex items-center gap-4"><span class="material-symbols-outlined text-primary text-sm">check_circle</span>Hot Water Extraction &amp; Steam Clean</li>
+        <li class="flex items-center gap-4"><span class="material-symbols-outlined text-primary text-sm">check_circle</span>Leather Conditioning &amp; UV Protection</li>
+        <li class="flex items-center gap-4"><span class="material-symbols-outlined text-primary text-sm">check_circle</span>Odor Elimination Treatment</li>
+      </ul>
+      <a href="contact.html" class="w-fit px-12 py-4 border-2 border-primary text-white hover:bg-primary hover:text-black transition-all font-bold uppercase tracking-widest text-xs">Select Plan</a>
+    </div>
+  </div>
+  <div class="grid grid-cols-1 md:grid-cols-2 min-h-[600px]" id="full">
+    <div class="bg-surface-container-low flex flex-col justify-center p-12 md:p-24 order-2 md:order-1 border-t-8 border-primary md:border-t-0 md:border-r-8">
+      <span class="text-primary text-xs uppercase tracking-[0.3em] mb-4">Starting at $265</span>
+      <h3 class="text-4xl font-extrabold uppercase mb-8">Full Detail</h3>
+      <ul class="space-y-4 mb-10 text-sm">
+        <li class="flex items-center gap-4"><span class="material-symbols-outlined text-primary text-sm">check_circle</span>Foam Cannon Wash &amp; Clay Bar Treatment</li>
+        <li class="flex items-center gap-4"><span class="material-symbols-outlined text-primary text-sm">check_circle</span>All-In-One Paint Polish &amp; Sealant</li>
+        <li class="flex items-center gap-4"><span class="material-symbols-outlined text-primary text-sm">check_circle</span>Wheels, Tires, &amp; Wheel Well Restoration</li>
+      </ul>
+      <a href="contact.html" class="w-fit px-12 py-4 border-2 border-primary text-white hover:bg-primary hover:text-black transition-all font-bold uppercase tracking-widest text-xs">Select Plan</a>
+    </div>
+    <div class="relative order-1 md:order-2"><img alt="Polished white Ford F-150" class="w-full h-full object-cover" src="https://lh3.googleusercontent.com/aida-public/AB6AXuA50gIbjdScG4HO0wo0m7sLkJLnLm2aegmemQkB1amkxm_nkDqJc1D7zwnAOUdkoto3Kpdbp3xbyvVD-5lJ5Ur-fMwRsskgQA-x6qjPZCkwWqYG3G-cXaFd032oxVWNHevlhLaTaH4lPVvTsjnHmeLV3Z5oZaq5o3QM3a--sI2bG4BcTjYlUTMGdWeP35r5trU143DgFmgTmAxA2iV3C0BheRMEM8v4XPYTND8PhjwCjeY4H5gP8CgkwWakHX5-al7-MhJYctmO38B8"/></div>
+  </div>
+  <div class="grid grid-cols-1 md:grid-cols-2 min-h-[600px]" id="diamond">
+    <div class="relative"><img alt="BMW interior macro detail" class="w-full h-full object-cover" src="https://lh3.googleusercontent.com/aida-public/AB6AXuCUvVVScjFY-F1dQVcPkMq4uOfrBEqIoKE-1PeqWoI-VcXUaqPtsyWtXi6S7uA8nn7OccpxniQjBpLl_kC5ChPSVQ6lJW48pzwsvzcYtCd4sNr5drPTvS5Zzt1McLzRCpDFHxYeZhOha7QmjBbMueXcBkfK17y06RV2_2PVjePa5qlPUHhw-DaYXSVG9EKfBHk3T_a0kkP__ewjlqH1RCy3kZipYhlBno5_bc0UiaaYFvyGriUBPIa4DIaiEsrnC_u8KcCzcy0z18s"/></div>
+    <div class="bg-surface-container flex flex-col justify-center p-12 md:p-24 border-t-8 border-primary md:border-t-0 md:border-l-8">
+      <span class="text-primary text-xs uppercase tracking-[0.3em] mb-4">Starting at $395</span>
+      <h3 class="text-4xl font-extrabold uppercase mb-8">Diamond Detail</h3>
+      <ul class="space-y-4 mb-10 text-sm">
+        <li class="flex items-center gap-4"><span class="material-symbols-outlined text-primary text-sm">check_circle</span>Multi-Stage Paint Correction</li>
+        <li class="flex items-center gap-4"><span class="material-symbols-outlined text-primary text-sm">check_circle</span>Engine Bay Cosmetic Restoration</li>
+        <li class="flex items-center gap-4"><span class="material-symbols-outlined text-primary text-sm">check_circle</span>Ceramic Shield Lite Application</li>
+      </ul>
+      <a href="contact.html" class="w-fit px-12 py-4 border-2 border-primary text-white hover:bg-primary hover:text-black transition-all font-bold uppercase tracking-widest text-xs">Select Plan</a>
+    </div>
+  </div>
+</section>
+
+<!-- ADD-ONS -->
+<section class="bg-black py-24 px-8 md:px-16 fade-in">
+  <div class="text-center mb-20">
+    <h2 class="text-5xl font-extrabold uppercase tracking-tight mb-4">The Finishing Touches</h2>
+    <p class="text-on-surface-variant max-w-2xl mx-auto">Enhance your package with specialized restoration services designed for longevity.</p>
+  </div>
+  <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-5 gap-4">
+    <div class="bg-[#111111] border-t-4 border-primary p-6 group hover:bg-surface-container-high transition-all duration-500">
+      <h4 class="text-lg font-bold uppercase mb-2">Engine Bay</h4><p class="text-primary text-sm mb-4">$50+</p>
+      <p class="text-xs text-on-surface-variant leading-relaxed">Steam cleaned and plastic dressed for a factory-new look.</p>
+    </div>
+    <div class="bg-[#111111] border-t-4 border-primary p-6 group hover:bg-surface-container-high transition-all duration-500">
+      <h4 class="text-lg font-bold uppercase mb-2">Headlights</h4><p class="text-primary text-sm mb-4">$80+</p>
+      <p class="text-xs text-on-surface-variant leading-relaxed">Multi-stage sanding and UV sealing for ultimate clarity.</p>
+    </div>
+    <div class="bg-[#111111] border-t-4 border-primary p-6 group hover:bg-surface-container-high transition-all duration-500">
+      <h4 class="text-lg font-bold uppercase mb-2">Glass Ceramic</h4><p class="text-primary text-sm mb-4">$100+</p>
+      <p class="text-xs text-on-surface-variant leading-relaxed">Hydrophobic coating for superior visibility in rain.</p>
+    </div>
+    <div class="bg-[#111111] border-t-4 border-primary p-6 group hover:bg-surface-container-high transition-all duration-500">
+      <h4 class="text-lg font-bold uppercase mb-2">Mold Removal</h4><p class="text-primary text-sm mb-4">$250+</p>
+      <p class="text-xs text-on-surface-variant leading-relaxed">Hospital-grade sanitization and deep spore extraction.</p>
+    </div>
+    <div class="bg-[#111111] border-t-4 border-primary p-6 group hover:bg-surface-container-high transition-all duration-500">
+      <h4 class="text-lg font-bold uppercase mb-2">Odor Removal</h4><p class="text-primary text-sm mb-4">$75+</p>
+      <p class="text-xs text-on-surface-variant leading-relaxed">Ozone treatment and specialized enzyme fogging.</p>
+    </div>
+  </div>
+</section>
+
+<footer class="bg-black border-t border-white/10">
+  <div class="grid grid-cols-1 md:grid-cols-4 gap-12 px-12 py-16">
+    <div class="space-y-6"><div class="text-xl font-semibold">Diamond Finish <span class="text-primary">Detailing</span></div><p class="text-white/50 text-xs leading-relaxed">Engineered for perfection, delivered to your driveway. The premier mobile detailing experience on the South Shore of Massachusetts.</p></div>
+    <div class="space-y-4"><h4 class="text-primary font-bold uppercase tracking-[0.1em] text-[0.6875rem]">Services</h4><ul class="space-y-2"><li><a href="auto-detailing.html" class="text-white/70 hover:text-primary text-xs font-semibold uppercase tracking-[0.1em]">Auto Detailing</a></li><li><a href="marine-detailing.html" class="text-white/70 hover:text-primary text-xs font-semibold uppercase tracking-[0.1em]">Marine Detailing</a></li><li><a href="ceramic-coating.html" class="text-white/70 hover:text-primary text-xs font-semibold uppercase tracking-[0.1em]">Ceramic Coating</a></li><li><a href="fleet-detailing.html" class="text-white/70 hover:text-primary text-xs font-semibold uppercase tracking-[0.1em]">Fleet Detailing</a></li></ul></div>
+    <div class="space-y-4"><h4 class="text-primary font-bold uppercase tracking-[0.1em] text-[0.6875rem]">Hours</h4><ul class="space-y-2 text-white/70 text-xs font-semibold uppercase tracking-[0.1em]"><li>Mon – Fri: 8am – 6pm</li><li>Sat: 9am – 4pm</li><li>Sun: Closed</li></ul></div>
+    <div class="space-y-4"><h4 class="text-primary font-bold uppercase tracking-[0.1em] text-[0.6875rem]">Contact</h4><ul class="space-y-2"><li class="text-white/70 text-xs font-semibold uppercase tracking-[0.1em]">Scituate / Marshfield, MA</li><li><a href="tel:7814243314" class="text-white/70 hover:text-primary text-xs font-semibold uppercase tracking-[0.1em]">(781) 424-3314</a></li><li><a href="mailto:DFDetailing02066@gmail.com" class="text-white/70 hover:text-primary text-xs font-semibold uppercase tracking-[0.1em]">DFDetailing02066@gmail.com</a></li></ul></div>
+  </div>
+  <div class="px-12 py-8 border-t border-white/5 text-center"><p class="text-white/30 font-semibold uppercase tracking-[0.1em] text-[0.6875rem]">© 2025 Diamond Finish Detailing. Engineered for Perfection.</p></div>
+</footer>
+<script src="assets/js/main.js"></script>
+</body></html>

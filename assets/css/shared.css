@@ -1,0 +1,26 @@
+body {
+  font-family: 'Montserrat', sans-serif;
+  background-color: #000000;
+  color: #ffffff;
+}
+.material-symbols-outlined {
+  font-variation-settings: 'FILL' 0, 'wght' 400, 'GRAD' 0, 'opsz' 24;
+}
+::-webkit-scrollbar { width: 8px; }
+::-webkit-scrollbar-track { background: #000000; }
+::-webkit-scrollbar-thumb { background: #191919; border-radius: 4px; }
+::-webkit-scrollbar-thumb:hover { background: #00bfff; }
+.glass-nav { background: rgba(0,0,0,0.6); backdrop-filter: blur(20px); }
+.no-scrollbar::-webkit-scrollbar { display: none; }
+.no-scrollbar { -ms-overflow-style: none; scrollbar-width: none; }
+@keyframes marquee {
+  0% { transform: translateX(0); }
+  100% { transform: translateX(-50%); }
+}
+.animate-marquee { animation: marquee 25s linear infinite; white-space: nowrap; display: inline-flex; }
+.fade-in { opacity: 0; transform: translateY(24px); transition: opacity 0.65s ease, transform 0.65s ease; }
+.fade-in.visible { opacity: 1; transform: translateY(0); }
+.faq-body { display: none; }
+.faq-body.open { display: block; }
+.nav-dropdown { display: none; }
+.nav-dropdown-parent:hover .nav-dropdown { display: block; }

@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html class="dark" lang="en">
+<head>
+<meta charset="utf-8"/><meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+<title>Marine Detailing | Diamond Finish Detailing</title>
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@600;700;800&display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&display=swap" rel="stylesheet"/>
+<link rel="stylesheet" href="assets/css/shared.css"/>
+<script id="tailwind-config">tailwind.config={darkMode:"class",theme:{extend:{colors:{"surface-container-lowest":"#000000","surface-container":"#191919","surface-container-high":"#1f1f1f","surface-container-low":"#131313","surface-container-highest":"#262626","surface":"#0e0e0e","on-surface":"#ffffff","on-surface-variant":"#ababab","primary":"#5dc9ff","surface-variant":"#262626"},borderRadius:{"DEFAULT":"0.125rem","lg":"0.25rem","xl":"0.5rem"},fontFamily:{"headline":["Montserrat","sans-serif"]}}}}</script>
+</head>
+<body class="bg-black text-white font-semibold">
+<nav class="fixed top-0 w-full z-50 glass-nav shadow-[0px_20px_40px_rgba(0,191,255,0.08)]">
+  <div class="flex justify-between items-center px-6 md:px-8 py-4">
+    <a href="index.html" class="text-xl md:text-2xl font-semibold tracking-tighter">Diamond Finish <span class="text-primary">Detailing</span></a>
+    <div class="hidden md:flex items-center space-x-8">
+      <a href="index.html" class="text-white hover:text-primary transition-colors font-semibold tracking-tight text-sm">Home</a>
+      <div class="relative nav-dropdown-parent"><button class="flex items-center gap-1 text-primary border-b-2 border-primary pb-1 font-semibold text-sm">Services <span class="material-symbols-outlined" style="font-size:16px">expand_more</span></button>
+        <div class="nav-dropdown absolute top-8 left-0 bg-black border border-white/10 rounded-lg py-2 min-w-[200px] z-50">
+          <a href="auto-detailing.html" class="block px-5 py-2 text-sm font-semibold text-white/70 hover:text-primary">Auto Detailing</a>
+          <a href="marine-detailing.html" class="block px-5 py-2 text-sm font-semibold text-primary">Marine Detailing</a>
+          <a href="ceramic-coating.html" class="block px-5 py-2 text-sm font-semibold text-white/70 hover:text-primary">Ceramic Coating</a>
+          <a href="fleet-detailing.html" class="block px-5 py-2 text-sm font-semibold text-white/70 hover:text-primary">Fleet Detailing</a>
+        </div>
+      </div>
+      <a href="clean-car-club.html" class="text-white hover:text-primary font-semibold text-sm">Clean Car Club</a>
+      <a href="faqs.html" class="text-white hover:text-primary font-semibold text-sm">FAQs</a>
+      <a href="contact.html" class="text-white hover:text-primary font-semibold text-sm">Contact</a>
+    </div>
+    <div class="flex items-center gap-3">
+      <a href="contact.html" class="border-2 border-primary text-white px-5 py-2 rounded-lg font-semibold text-sm hover:bg-primary hover:text-black transition-all">Book Online</a>
+      <button id="mobile-menu-btn" class="md:hidden text-white"><span class="material-symbols-outlined">menu</span></button>
+    </div>
+  </div>
+  <div id="mobile-menu" class="hidden md:hidden bg-black border-t border-white/10 px-6 py-5 space-y-4">
+    <a href="index.html" class="block text-white/70 font-semibold text-sm">Home</a>
+    <a href="auto-detailing.html" class="block text-white/70 font-semibold text-sm">Auto Detailing</a>
+    <a href="marine-detailing.html" class="block text-primary font-semibold text-sm">Marine Detailing</a>
+    <a href="ceramic-coating.html" class="block text-white/70 font-semibold text-sm">Ceramic Coating</a>
+    <a href="fleet-detailing.html" class="block text-white/70 font-semibold text-sm">Fleet Detailing</a>
+    <a href="clean-car-club.html" class="block text-white/70 font-semibold text-sm">Clean Car Club</a>
+    <a href="faqs.html" class="block text-white/70 font-semibold text-sm">FAQs</a>
+    <a href="contact.html" class="block text-white/70 font-semibold text-sm">Contact</a>
+  </div>
+</nav>
+
+<!-- HERO -->
+<section class="relative min-h-screen flex items-center pt-20">
+  <div class="absolute inset-0 z-0">
+    <img alt="Luxury white yacht at golden hour" class="w-full h-full object-cover" src="https://lh3.googleusercontent.com/aida-public/AB6AXuCt9PdFvS89k5tccPuk43NvYWdoVkvUIR4stIr7n3LnCuzQFjW9zu7U_SIdScS-m1Q9PiHwZ_C-xrCeOzp5LPI6oH1PeVi4V_uKpVEj0SXTLfkcSW7G1EYTLK4BNXDJONQJ9QN9di9wjm54gKDB8QEkea5n0UzI25UWLO5rqWsftuQggc3xWaQ50_VC6zXzOp0cLNQNgP78hLiOBvw-c3qMAXIzhEYxHD1NltykORQFak-qIBoHkwTZ1v7EewFCobG2h9fmhtdJtYA"/>
+    <div class="absolute inset-0 bg-gradient-to-r from-black via-black/40 to-transparent"></div>
+  </div>
+  <div class="container mx-auto px-8 z-10 grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
+    <div class="max-w-2xl">
+      <span class="text-primary tracking-[0.2em] uppercase text-xs mb-4 block">Elite Yacht Care</span>
+      <h1 class="text-5xl md:text-7xl font-semibold tracking-tight mb-6 leading-tight">Premium Marine Detailing <span class="text-primary">Serving Massachusetts</span></h1>
+      <p class="text-on-surface-variant text-lg max-w-lg font-normal mb-8 leading-relaxed">Preserving the elegance and integrity of your vessel with diamond-grade finishes and meticulous precision.</p>
+    </div>
+    <div class="lg:justify-self-end w-full max-w-md">
+      <div class="bg-surface-container p-10 rounded-lg shadow-2xl border-t-4 border-primary">
+        <h3 class="text-2xl mb-6">Schedule Your Dock Visit</h3>
+        <form data-contact class="space-y-4">
+          <div><label class="block text-[0.6875rem] uppercase tracking-widest text-on-surface-variant mb-2">Vessel Name / Size</label><input required placeholder="e.g. Sea Ray 40ft" class="w-full bg-surface-container-highest border-none focus:ring-0 text-white p-3 rounded text-sm"/></div>
+          <div><label class="block text-[0.6875rem] uppercase tracking-widest text-on-surface-variant mb-2">Service Type</label>
+            <select class="w-full bg-surface-container-highest border-none focus:ring-0 text-white p-3 rounded text-sm">
+              <option>Full Detailing</option><option>Ceramic Coating</option><option>Maintenance Wash</option>
+            </select>
+          </div>
+          <div><label class="block text-[0.6875rem] uppercase tracking-widest text-on-surface-variant mb-2">Contact Name</label><input required placeholder="Your Name" class="w-full bg-surface-container-highest border-none focus:ring-0 text-white p-3 rounded text-sm"/></div>
+          <button type="submit" class="w-full mt-4 py-4 border-2 border-primary text-white font-semibold uppercase tracking-widest hover:bg-primary hover:text-black transition-all duration-300">Request Appointment</button>
+        </form>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- PACKAGES -->
+<section class="py-32 px-8 bg-surface-container-low fade-in">
+  <div class="container mx-auto">
+    <div class="text-center mb-20"><h2 class="text-4xl font-semibold tracking-tighter mb-4">Select Your Package</h2><div class="h-1 w-24 bg-primary mx-auto"></div></div>
+    <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+      <div class="bg-[#111111] p-10 rounded-lg border-t-4 border-primary flex flex-col justify-between">
+        <div><h3 class="text-2xl mb-2">Mariner's</h3><p class="text-on-surface-variant text-sm mb-8 font-normal">Essential maintenance for the season.</p>
+          <ul class="space-y-4 mb-12 text-sm"><li class="flex items-center gap-3"><span class="material-symbols-outlined text-primary text-sm">check_circle</span>Hand Wash &amp; Drying</li><li class="flex items-center gap-3"><span class="material-symbols-outlined text-primary text-sm">check_circle</span>Nonskid Scrubbing</li><li class="flex items-center gap-3"><span class="material-symbols-outlined text-primary text-sm">check_circle</span>Glass Cleaning</li></ul>
+        </div>
+        <a href="contact.html" class="w-full py-3 border-2 border-primary text-white hover:bg-primary hover:text-black transition-all text-center font-bold uppercase tracking-widest text-xs">Book Now</a>
+      </div>
+      <div class="bg-[#111111] p-10 rounded-lg border-t-4 border-primary relative transform lg:-translate-y-4 shadow-xl flex flex-col justify-between">
+        <div class="absolute -top-4 left-1/2 -translate-x-1/2 bg-primary text-black px-4 py-1 text-xs font-bold rounded">MOST POPULAR</div>
+        <div><h3 class="text-2xl mb-2">Captain's</h3><p class="text-on-surface-variant text-sm mb-8 font-normal">Deep cleaning and protection focus.</p>
+          <ul class="space-y-4 mb-12 text-sm"><li class="flex items-center gap-3"><span class="material-symbols-outlined text-primary text-sm">check_circle</span>Everything in Mariner's</li><li class="flex items-center gap-3"><span class="material-symbols-outlined text-primary text-sm">check_circle</span>Vinyl Cleaning &amp; UV Protect</li><li class="flex items-center gap-3"><span class="material-symbols-outlined text-primary text-sm">check_circle</span>High-Gloss Machine Wax</li><li class="flex items-center gap-3"><span class="material-symbols-outlined text-primary text-sm">check_circle</span>Compartment Cleaning</li></ul>
+        </div>
+        <a href="contact.html" class="w-full py-3 border-2 border-primary text-white hover:bg-primary hover:text-black transition-all text-center font-bold uppercase tracking-widest text-xs">Book Now</a>
+      </div>
+      <div class="bg-[#111111] p-10 rounded-lg border-t-4 border-primary flex flex-col justify-between">
+        <div><h3 class="text-2xl mb-2">Ceramic</h3><p class="text-on-surface-variant text-sm mb-8 font-normal">The ultimate armor for your gelcoat.</p>
+          <ul class="space-y-4 mb-12 text-sm"><li class="flex items-center gap-3"><span class="material-symbols-outlined text-primary text-sm">check_circle</span>Multi-Stage Correction</li><li class="flex items-center gap-3"><span class="material-symbols-outlined text-primary text-sm">check_circle</span>Marine-Grade Ceramic Seal</li><li class="flex items-center gap-3"><span class="material-symbols-outlined text-primary text-sm">check_circle</span>Metal Polishing &amp; Coating</li></ul>
+        </div>
+        <a href="contact.html" class="w-full py-3 border-2 border-primary text-white hover:bg-primary hover:text-black transition-all text-center font-bold uppercase tracking-widest text-xs">Book Now</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ON-DOCK PROGRAM -->
+<section class="py-24 px-8 border-y border-white/5 fade-in">
+  <div class="container mx-auto flex flex-col lg:flex-row gap-16 items-center">
+    <div class="lg:w-1/2">
+      <img alt="Marine detailer washing yacht hull" class="rounded-lg shadow-2xl grayscale hover:grayscale-0 transition-all duration-700 w-full" src="https://lh3.googleusercontent.com/aida-public/AB6AXuDP3GYlNwNEfFIfyAatROjLRBY_DH-jLeewG-GNbd7qZmruitSdqFfmD3JwL7GSgETQoVKs9D7-fxxwgjeFlRGN3CPLVcccMg0pCQOkZCKCwUg1BZtRtTK4K33NUKv0jM0KkvLdjk4FDDtDBfRy6bj5vB4Dj531apd_-Jgp5IpsgCpdQOouaKlnrCQxUbaCKUvNiKTgTKf9JoIEe9yhFGiVqYZ72kJtlGWt9ovfkdmUT5h0C5W7Dvxz2Fi_zegSf3Ekc4ROI8OKWh0"/>
+    </div>
+    <div class="lg:w-1/2">
+      <h2 class="text-4xl mb-6 leading-tight">Our On-Dock Maintenance <span class="text-primary">Wash Program</span></h2>
+      <p class="text-on-surface-variant mb-10 font-normal leading-relaxed">Never worry about salt buildup again. Our specialized crews visit your dock on a set schedule to keep your boat pristine and ready for every weekend.</p>
+      <div class="grid grid-cols-1 sm:grid-cols-2 gap-6 mb-10">
+        <div class="bg-surface-container p-6 rounded border-l-4 border-primary"><h4 class="text-primary uppercase tracking-widest text-xs mb-2">Weekly</h4><div class="text-3xl font-bold">$4<span class="text-sm font-normal text-on-surface-variant">/ft</span></div><p class="text-[0.6875rem] text-on-surface-variant mt-2">Maximum shine &amp; protection</p></div>
+        <div class="bg-surface-container p-6 rounded border-l-4 border-primary/40"><h4 class="text-primary uppercase tracking-widest text-xs mb-2">Bi-Weekly</h4><div class="text-3xl font-bold">$6<span class="text-sm font-normal text-on-surface-variant">/ft</span></div><p class="text-[0.6875rem] text-on-surface-variant mt-2">Perfect for weekend sailors</p></div>
+      </div>
+      <a href="contact.html" class="inline-block px-10 py-4 border-2 border-primary text-white hover:bg-primary hover:text-black transition-all font-bold uppercase tracking-widest text-xs">Sign Up Here!</a>
+    </div>
+  </div>
+</section>
+
+<!-- SERVICES DETAIL -->
+<section class="py-32 px-8 bg-black fade-in">
+  <div class="container mx-auto space-y-32">
+    <div class="flex flex-col md:flex-row items-center gap-12 lg:gap-24">
+      <div class="w-full md:w-1/2"><img alt="Foam wash on boat hull" class="rounded-lg shadow-xl w-full" src="https://lh3.googleusercontent.com/aida-public/AB6AXuDcKQpYtzdU29sz29dfLuRrsZtpMWnA83_E9P_hn9l-sEKUio1eTlQolnnjwC-m_j5w5bFkoiBjGwFMJ_Fr1RXeHAC8N2f8kXvXOuFrYADaFo4SCaUFcd-ArcEL5Fq6C65kEHScwWyvLN412MG28GIfSrBy9X0Y57Z6HRlzX86AkYKIZdu17cF0BphwkRF_KjGMhii5Mpc_q-esJ7BR4epf2ArSlkRaA-MgRfo0jd6RwtA6T6otYjbgWteXCw6Ek9qclDbv77ZrlPY"/></div>
+      <div class="w-full md:w-1/2"><span class="material-symbols-outlined text-primary text-4xl mb-4 block">waves</span><h3 class="text-3xl mb-6">Marine Wash &amp; Decontamination</h3><p class="text-on-surface-variant font-normal leading-relaxed">Beyond just soap and water. We utilize specialized marine decontaminants to remove stubborn salt, organic growth, and environmental fallout from every crevice of your boat's exterior.</p></div>
+    </div>
+    <div class="flex flex-col md:flex-row-reverse items-center gap-12 lg:gap-24">
+      <div class="w-full md:w-1/2"><img alt="Machine buffing boat hull" class="rounded-lg shadow-xl w-full" src="https://lh3.googleusercontent.com/aida-public/AB6AXuDzJmPdBk06-PdGtOvnATUJ8nZpCaNq6mLiltgw7cR9OrMX2JodUcGgZ4r9PwjTWUK0QJM6zTxyb2KmfKbrTA7RbVVNnDxk0rKFyGzxORwDnP5XiBT6RuSKmn8Zb8dDZNRBIKLipTuMM8exaHt2GJJUqRgUvucpFrnjdnQL8J8fb15MIRQZEZTptVVtD4gowu50MCisOffOnj23sEmxoMJRaTBmwEMrkZ34FYj_uH1XHcBcPNIK13yE9LEED43I54DkVOM3K-Yq3hs"/></div>
+      <div class="w-full md:w-1/2"><span class="material-symbols-outlined text-primary text-4xl mb-4 block">auto_fix</span><h3 class="text-3xl mb-6">Machine Compounding &amp; Polishing</h3><p class="text-on-surface-variant font-normal leading-relaxed">Restoring life to faded gelcoat. Our multi-stage machine correction process removes oxidation, light scratches, and swirl marks to bring back a factory-fresh luster that reflects like glass.</p></div>
+    </div>
+    <div class="flex flex-col md:flex-row items-center gap-12 lg:gap-24">
+      <div class="w-full md:w-1/2"><img alt="Polished stainless steel boat railing" class="rounded-lg shadow-xl w-full" src="https://lh3.googleusercontent.com/aida-public/AB6AXuAW_xvP0m1Dz3BxXkHIocdiY0oOjLDzpZMlIkjanRyyJzjC0eUcbIJc3Sg-XwuC_o3auHdE695d8CLVS0MgjAB5u1tg1b5ZBSzYzxApF1Cf6J6_9ppVsTS6e-2IbqgMsCmoC1NCVD9-2t5FzOVmi1jJ9HfgN6_WH7Cye0HACD2POnJRvqtW7Om8O-CUOMqH7yT0IcIzFDu1TSYWWNzBiaSHW7S4-6sT5HMC4iicvb2jkkSIIT0UHxHTceYqwSsX95Cm_VxUk_B2wUI"/></div>
+      <div class="w-full md:w-1/2"><span class="material-symbols-outlined text-primary text-4xl mb-4 block">precision_manufacturing</span><h3 class="text-3xl mb-6">Stainless &amp; Metal Brightwork</h3><p class="text-on-surface-variant font-normal leading-relaxed">Every railing, cleat, and fitting is hand-polished to remove tea-staining and pitting. We treat all brightwork with a corrosion-resistant barrier to ensure it stays gleaming throughout the season.</p></div>
+    </div>
+    <div class="flex flex-col md:flex-row-reverse items-center gap-12 lg:gap-24">
+      <div class="w-full md:w-1/2"><img alt="Ceramic coating application on boat" class="rounded-lg shadow-xl w-full" src="https://lh3.googleusercontent.com/aida-public/AB6AXuC2E6UGq0dUnb7aLuheHER8YorIcOA2dpFciBPajW3EzmT1eMfndsCx26nKzvwZjVxkzKfST0JFyVFlNneFZZhgxGZUeqiI8O0y52XxdLIHAIJ7dT7JXCtElBl4SA3eo-DBepuT1aKg766eHDAK-MQkd-q5dHgWG0lQ2CY2qznR8eQGXk5QiXt9pcEPgWBH3Gi3BydkYond_aoDv16qvfdKCZQsQlWOedzJU6kOVF9Vu-mM3sxDT56Bgs0-eqI-RQDKJvD4DVUbKb0"/></div>
+      <div class="w-full md:w-1/2"><span class="material-symbols-outlined text-primary text-4xl mb-4 block">diamond</span><h3 class="text-3xl mb-6">Ceramic Coating &amp; Waxing</h3><p class="text-on-surface-variant font-normal leading-relaxed">The ultimate finish. Choose from our premium Carnauba wax for a warm glow or our 9H Marine Ceramic Coating for years of hydrophobic protection and unmatched UV resistance.</p></div>
+    </div>
+  </div>
+</section>
+
+<footer class="bg-black border-t border-white/10">
+  <div class="grid grid-cols-1 md:grid-cols-4 gap-12 px-12 py-16">
+    <div class="space-y-6"><div class="text-xl font-semibold">Diamond Finish <span class="text-primary">Detailing</span></div><p class="text-white/50 text-xs leading-relaxed">The Northeast's premier marine and automotive detailing specialists.</p></div>
+    <div class="space-y-4"><h4 class="text-primary font-bold uppercase tracking-[0.1em] text-[0.6875rem]">Services</h4><ul class="space-y-2"><li><a href="auto-detailing.html" class="text-white/70 hover:text-primary text-xs font-semibold uppercase tracking-[0.1em]">Auto Detailing</a></li><li><a href="marine-detailing.html" class="text-white/70 hover:text-primary text-xs font-semibold uppercase tracking-[0.1em]">Marine Detailing</a></li><li><a href="ceramic-coating.html" class="text-white/70 hover:text-primary text-xs font-semibold uppercase tracking-[0.1em]">Ceramic Coating</a></li><li><a href="fleet-detailing.html" class="text-white/70 hover:text-primary text-xs font-semibold uppercase tracking-[0.1em]">Fleet Detailing</a></li></ul></div>
+    <div class="space-y-4"><h4 class="text-primary font-bold uppercase tracking-[0.1em] text-[0.6875rem]">Hours</h4><ul class="space-y-2 text-white/70 text-xs font-semibold uppercase tracking-[0.1em]"><li>Mon – Fri: 8am – 6pm</li><li>Sat: 9am – 4pm</li><li>Sun: Closed</li></ul></div>
+    <div class="space-y-4"><h4 class="text-primary font-bold uppercase tracking-[0.1em] text-[0.6875rem]">Contact</h4><ul class="space-y-2"><li class="text-white/70 text-xs font-semibold uppercase tracking-[0.1em]">Scituate / Marshfield, MA</li><li><a href="tel:7814243314" class="text-white/70 hover:text-primary text-xs font-semibold uppercase tracking-[0.1em]">(781) 424-3314</a></li><li><a href="mailto:DFDetailing02066@gmail.com" class="text-white/70 hover:text-primary text-xs font-semibold uppercase tracking-[0.1em]">DFDetailing02066@gmail.com</a></li></ul></div>
+  </div>
+  <div class="px-12 py-8 border-t border-white/5 text-center"><p class="text-white/30 font-semibold uppercase tracking-[0.1em] text-[0.6875rem]">© 2025 Diamond Finish Detailing. Engineered for Perfection.</p></div>
+</footer>
+<script src="assets/js/main.js"></script>
+</body></html>

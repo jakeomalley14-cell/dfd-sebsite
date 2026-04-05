@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html class="dark" lang="en">
+<head>
+<meta charset="utf-8"/><meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+<title>Fleet Detailing | Diamond Finish Detailing</title>
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@600;700;800&display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&display=swap" rel="stylesheet"/>
+<link rel="stylesheet" href="assets/css/shared.css"/>
+<script id="tailwind-config">tailwind.config={darkMode:"class",theme:{extend:{colors:{"surface-container-lowest":"#000000","surface-container":"#191919","surface-container-low":"#131313","surface-container-highest":"#262626","surface":"#0e0e0e","on-surface":"#ffffff","on-surface-variant":"#ababab","primary":"#5dc9ff"},borderRadius:{"DEFAULT":"0.125rem","lg":"0.25rem","xl":"0.5rem"},fontFamily:{"headline":["Montserrat","sans-serif"]}}}}</script>
+</head>
+<body class="bg-black text-white font-semibold">
+<nav class="fixed top-0 w-full z-50 glass-nav shadow-[0px_20px_40px_rgba(0,191,255,0.08)]">
+  <div class="flex justify-between items-center px-6 md:px-8 py-4">
+    <a href="index.html" class="text-xl md:text-2xl font-semibold tracking-tighter">Diamond Finish <span class="text-primary">Detailing</span></a>
+    <div class="hidden md:flex items-center space-x-8">
+      <a href="index.html" class="text-white hover:text-primary font-semibold text-sm">Home</a>
+      <div class="relative nav-dropdown-parent"><button class="flex items-center gap-1 text-primary border-b-2 border-primary pb-1 font-semibold text-sm">Services <span class="material-symbols-outlined" style="font-size:16px">expand_more</span></button>
+        <div class="nav-dropdown absolute top-8 left-0 bg-black border border-white/10 rounded-lg py-2 min-w-[200px] z-50">
+          <a href="auto-detailing.html" class="block px-5 py-2 text-sm font-semibold text-white/70 hover:text-primary">Auto Detailing</a>
+          <a href="marine-detailing.html" class="block px-5 py-2 text-sm font-semibold text-white/70 hover:text-primary">Marine Detailing</a>
+          <a href="ceramic-coating.html" class="block px-5 py-2 text-sm font-semibold text-white/70 hover:text-primary">Ceramic Coating</a>
+          <a href="fleet-detailing.html" class="block px-5 py-2 text-sm font-semibold text-primary">Fleet Detailing</a>
+        </div>
+      </div>
+      <a href="clean-car-club.html" class="text-white hover:text-primary font-semibold text-sm">Clean Car Club</a>
+      <a href="faqs.html" class="text-white hover:text-primary font-semibold text-sm">FAQs</a>
+      <a href="contact.html" class="text-white hover:text-primary font-semibold text-sm">Contact</a>
+    </div>
+    <div class="flex items-center gap-3">
+      <a href="contact.html" class="border-2 border-primary text-white px-5 py-2 rounded-lg font-semibold text-sm hover:bg-primary hover:text-black transition-all">Book Online</a>
+      <button id="mobile-menu-btn" class="md:hidden text-white"><span class="material-symbols-outlined">menu</span></button>
+    </div>
+  </div>
+  <div id="mobile-menu" class="hidden md:hidden bg-black border-t border-white/10 px-6 py-5 space-y-4">
+    <a href="index.html" class="block text-white/70 font-semibold text-sm">Home</a>
+    <a href="auto-detailing.html" class="block text-white/70 font-semibold text-sm">Auto Detailing</a>
+    <a href="marine-detailing.html" class="block text-white/70 font-semibold text-sm">Marine Detailing</a>
+    <a href="ceramic-coating.html" class="block text-white/70 font-semibold text-sm">Ceramic Coating</a>
+    <a href="fleet-detailing.html" class="block text-primary font-semibold text-sm">Fleet Detailing</a>
+    <a href="clean-car-club.html" class="block text-white/70 font-semibold text-sm">Clean Car Club</a>
+    <a href="faqs.html" class="block text-white/70 font-semibold text-sm">FAQs</a>
+    <a href="contact.html" class="block text-white/70 font-semibold text-sm">Contact</a>
+  </div>
+</nav>
+
+<header class="relative h-[870px] flex items-center justify-start overflow-hidden pt-20">
+  <div class="absolute inset-0 z-0">
+    <img alt="Commercial fleet vans in industrial warehouse" class="w-full h-full object-cover brightness-[0.4]" src="https://lh3.googleusercontent.com/aida-public/AB6AXuAppGJmS56NZKe4mHUiJ5SixMdKCiLisPoo79IlCJo1NxXP9O5K3BJRpqO0jQwgtGQEUNBxxDtn9LdMW-6yEduUzWDrE7C11xnRt5jbTHn8mI8KkL2b_0LnbWM-9L2s94w113DKKXtxKKbKpkIeC7ckyw4P-kaf6zy3hldImO7QIyI5oKAiwC7PE05QjpwIw80qLZcpN3XeyrEJdLbuiaeBjmuU1UZdMoHf89e-TeBRhHy_rodKWM7r698b4fdpDE0vQn2tEdRMjRQ"/>
+    <div class="absolute inset-0 bg-gradient-to-r from-black via-black/40 to-transparent"></div>
+  </div>
+  <div class="relative z-10 px-8 md:px-20 max-w-4xl">
+    <div class="mb-4 inline-block px-3 py-1 bg-primary/10 border border-primary/20 rounded-md"><span class="text-[0.6875rem] font-semibold uppercase tracking-[0.1em] text-primary">Volume &amp; Reliability</span></div>
+    <h1 class="text-5xl md:text-7xl font-extrabold tracking-tighter leading-none mb-6">Commercial Fleet Detailing — <span class="text-primary">Massachusetts</span></h1>
+    <p class="text-xl text-on-surface-variant max-w-2xl mb-10 leading-relaxed">Engineered maintenance programs for business leaders who demand perfection. Protect your corporate identity with ceramic-grade finishes and scheduled logistics.</p>
+    <div class="flex flex-wrap gap-4">
+      <a class="border-2 border-primary text-white px-10 py-4 rounded-lg font-bold uppercase tracking-wider hover:bg-primary hover:text-black transition-all" href="#quote">Get a Commercial Quote</a>
+      <div class="flex items-center gap-4 px-6 text-white/70 font-semibold italic"><span class="material-symbols-outlined text-primary">verified</span>Fully Insured &amp; Bonded</div>
+    </div>
+  </div>
+</header>
+
+<section class="bg-black py-24 px-8 md:px-20 fade-in">
+  <div class="grid grid-cols-1 md:grid-cols-12 gap-6">
+    <div class="md:col-span-7 bg-[#111111] rounded-lg p-12 border-t-4 border-primary flex flex-col justify-between">
+      <div>
+        <h2 class="text-3xl font-bold mb-8">Unmatched Scale. Precision Execution.</h2>
+        <div class="grid grid-cols-1 sm:grid-cols-2 gap-8">
+          <div class="space-y-4"><span class="material-symbols-outlined text-primary text-4xl block">precision_manufacturing</span><h3 class="text-xl font-semibold">Priority Scheduling</h3><p class="text-on-surface-variant font-normal">Minimize downtime with "After-Hours" service windows designed around your fleet's active hours.</p></div>
+          <div class="space-y-4"><span class="material-symbols-outlined text-primary text-4xl block">shield</span><h3 class="text-xl font-semibold">Asset Protection</h3><p class="text-on-surface-variant font-normal">Preventative care including chemical decontamination and industrial-grade ceramic sealants for long-term value.</p></div>
+        </div>
+      </div>
+      <div class="mt-12 flex items-center gap-6 border-t border-white/5 pt-8">
+        <div class="text-4xl font-extrabold text-primary">50+</div>
+        <div class="text-sm font-semibold uppercase tracking-widest text-on-surface-variant leading-tight">Active Fleet<br/>Contracts in MA</div>
+      </div>
+    </div>
+    <div class="md:col-span-5 space-y-6">
+      <div class="bg-surface-container-low rounded-lg p-8 relative overflow-hidden flex flex-col justify-end min-h-[200px]">
+        <img alt="Microfiber detailing cloth" class="absolute inset-0 w-full h-full object-cover opacity-30" src="https://lh3.googleusercontent.com/aida-public/AB6AXuAguK9rjuMi8rPSg3S5OGJMFAwdGub2AFGH_clX96-vOO4uyO1EGcTbrAngey1mq-AcgeGdKldwN-GBAnTMApqPCpiUzLD3aDHgsiuMg0y0F_lYY2loPkyDPenSXki1hp48I8xVgEaccdWZMJaSbi76rlt_5HYmZoBt_0fU6NXDSybMKr4V0bNoLfQ5b26VmQ0Uh3iuzX6m8UbMHkGIN9tRPzoSQi3OdLzqy0x1gzXVeVCK9t9AbIpLz85A4OshVvADaMizq0Zt7FM"/>
+        <div class="relative z-10"><h3 class="text-2xl font-bold mb-2">Corporate Identity</h3><p class="text-on-surface-variant font-normal">A clean fleet isn't a luxury—it's your most visible marketing asset on the road.</p></div>
+      </div>
+      <div class="bg-primary/10 border border-primary/20 rounded-lg p-8">
+        <div class="space-y-4">
+          <div class="flex items-center gap-4"><span class="material-symbols-outlined text-primary">check_circle</span><span class="font-semibold">Custom Billing (Net-30 Available)</span></div>
+          <div class="flex items-center gap-4"><span class="material-symbols-outlined text-primary">check_circle</span><span class="font-semibold">Detailed Condition Reports</span></div>
+          <div class="flex items-center gap-4"><span class="material-symbols-outlined text-primary">check_circle</span><span class="font-semibold">Multi-Vehicle Discounts</span></div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="bg-surface-container-low py-24 px-8 md:px-20 fade-in" id="quote">
+  <div class="max-w-6xl mx-auto flex flex-col md:flex-row gap-20">
+    <div class="md:w-1/3">
+      <h2 class="text-4xl font-extrabold tracking-tighter mb-6">Request Your Fleet Strategy</h2>
+      <p class="text-on-surface-variant mb-8 font-normal">Our commercial team will review your fleet size and requirements to build a custom maintenance proposal within 24 hours.</p>
+      <div class="space-y-4">
+        <div class="flex items-center gap-4">
+          <div class="w-12 h-12 rounded-full bg-primary/10 flex items-center justify-center"><span class="material-symbols-outlined text-primary">call</span></div>
+          <div><p class="text-xs font-semibold uppercase text-primary tracking-widest">Phone</p><p class="font-bold"><a href="tel:7814243314">(781) 424-3314</a></p></div>
+        </div>
+        <div class="flex items-center gap-4">
+          <div class="w-12 h-12 rounded-full bg-primary/10 flex items-center justify-center"><span class="material-symbols-outlined text-primary">mail</span></div>
+          <div><p class="text-xs font-semibold uppercase text-primary tracking-widest">Email</p><p class="font-bold text-sm"><a href="mailto:DFDetailing02066@gmail.com">DFDetailing02066@gmail.com</a></p></div>
+        </div>
+      </div>
+    </div>
+    <div class="md:w-2/3 bg-black p-10 rounded-lg shadow-2xl">
+      <form data-contact class="grid grid-cols-1 sm:grid-cols-2 gap-6">
+        <div class="space-y-2"><label class="text-[0.6875rem] font-semibold uppercase tracking-[0.1em] text-primary block">Company Name</label><input required placeholder="e.g. Northeast Logistics" class="w-full bg-surface-container-highest border-none p-4 focus:ring-0 text-white" type="text"/></div>
+        <div class="space-y-2"><label class="text-[0.6875rem] font-semibold uppercase tracking-[0.1em] text-primary block">Fleet Size</label>
+          <select class="w-full bg-surface-container-highest border-none p-4 focus:ring-0 text-white"><option>1–5 Vehicles</option><option>5–15 Vehicles</option><option>15–50 Vehicles</option><option>50+ Vehicles</option></select>
+        </div>
+        <div class="space-y-2"><label class="text-[0.6875rem] font-semibold uppercase tracking-[0.1em] text-primary block">Primary Contact</label><input required placeholder="Full Name" class="w-full bg-surface-container-highest border-none p-4 focus:ring-0 text-white" type="text"/></div>
+        <div class="space-y-2"><label class="text-[0.6875rem] font-semibold uppercase tracking-[0.1em] text-primary block">Vehicle Type</label><input placeholder="Vans, Trucks, Sedans..." class="w-full bg-surface-container-highest border-none p-4 focus:ring-0 text-white" type="text"/></div>
+        <div class="sm:col-span-2 space-y-2"><label class="text-[0.6875rem] font-semibold uppercase tracking-[0.1em] text-primary block">Specific Requirements</label><textarea rows="4" placeholder="Tell us about your schedule and specific detailing needs..." class="w-full bg-surface-container-highest border-none p-4 focus:ring-0 text-white"></textarea></div>
+        <div class="sm:col-span-2 pt-4"><button type="submit" class="w-full bg-transparent border-2 border-primary text-white py-5 rounded-lg font-bold uppercase tracking-widest hover:bg-primary hover:text-black transition-all">Submit Request for Proposal</button></div>
+      </form>
+    </div>
+  </div>
+</section>
+
+<footer class="bg-black border-t border-white/10">
+  <div class="grid grid-cols-1 md:grid-cols-4 gap-12 px-12 py-16">
+    <div class="space-y-6"><div class="text-xl font-semibold">Diamond Finish <span class="text-primary">Detailing</span></div><p class="text-white/50 text-xs leading-relaxed">Engineered for perfection, delivered to your driveway.</p></div>
+    <div class="space-y-4"><h4 class="text-primary font-bold uppercase tracking-[0.1em] text-[0.6875rem]">Services</h4><ul class="space-y-2"><li><a href="auto-detailing.html" class="text-white/70 hover:text-primary text-xs font-semibold uppercase tracking-[0.1em]">Auto Detailing</a></li><li><a href="marine-detailing.html" class="text-white/70 hover:text-primary text-xs font-semibold uppercase tracking-[0.1em]">Marine Detailing</a></li><li><a href="ceramic-coating.html" class="text-white/70 hover:text-primary text-xs font-semibold uppercase tracking-[0.1em]">Ceramic Coating</a></li><li><a href="fleet-detailing.html" class="text-white/70 hover:text-primary text-xs font-semibold uppercase tracking-[0.1em]">Fleet Detailing</a></li></ul></div>
+    <div class="space-y-4"><h4 class="text-primary font-bold uppercase tracking-[0.1em] text-[0.6875rem]">Hours</h4><ul class="space-y-2 text-white/70 text-xs font-semibold uppercase tracking-[0.1em]"><li>Mon – Fri: 8am – 6pm</li><li>Sat: 9am – 4pm</li><li>Sun: Commercial Only</li></ul></div>
+    <div class="space-y-4"><h4 class="text-primary font-bold uppercase tracking-[0.1em] text-[0.6875rem]">Contact</h4><ul class="space-y-2"><li class="text-white/70 text-xs font-semibold uppercase tracking-[0.1em]">Scituate / Marshfield, MA</li><li><a href="tel:7814243314" class="text-white/70 hover:text-primary text-xs font-semibold uppercase tracking-[0.1em]">(781) 424-3314</a></li><li><a href="mailto:DFDetailing02066@gmail.com" class="text-white/70 hover:text-primary text-xs font-semibold uppercase tracking-[0.1em]">DFDetailing02066@gmail.com</a></li></ul></div>
+  </div>
+  <div class="px-12 py-8 border-t border-white/5 text-center"><p class="text-white/30 font-semibold uppercase tracking-[0.1em] text-[0.6875rem]">© 2025 Diamond Finish Detailing. Engineered for Perfection.</p></div>
+</footer>
+<script src="assets/js/main.js"></script>
+</body></html>
