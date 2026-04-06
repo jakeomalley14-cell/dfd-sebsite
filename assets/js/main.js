@@ -1,5 +1,20 @@
 document.addEventListener('DOMContentLoaded', function () {
 
+  // Services dropdown — toggle on click for reliability
+  document.querySelectorAll('.nav-dropdown-parent').forEach(function (parent) {
+    var toggle = parent.querySelector('button');
+    var dropdown = parent.querySelector('.nav-dropdown');
+    if (!toggle || !dropdown) return;
+    toggle.addEventListener('click', function (e) {
+      e.stopPropagation();
+      var isOpen = dropdown.style.display === 'block';
+      dropdown.style.display = isOpen ? '' : 'block';
+    });
+    document.addEventListener('click', function () {
+      dropdown.style.display = '';
+    });
+  });
+
   // Mobile menu toggle
   var btn = document.getElementById('mobile-menu-btn');
   var menu = document.getElementById('mobile-menu');
